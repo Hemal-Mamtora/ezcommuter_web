@@ -1,9 +1,9 @@
 .idea
 .git
 .ignore
-venv/*
 *.log
 *.pyc
+venv/*
 **/migrations/*
 */__pycache__/*
 website/migrations/*.py
