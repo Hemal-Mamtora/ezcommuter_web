@@ -1,0 +1,50 @@
+{% extends 'adm/base.html' %}
+
+
+{% block HEAD %}
+ <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 425px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+    <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+    <style>
+          canvas {
+              -moz-user-select: none;
+              -webkit-user-select: none;
+              -ms-user-select: none;
+          }
+    </style>
+{% endblock %}
+
+
+
+{% block BODY %}
+<div class="" style="margin:0px !important;padding: 0px !important;width:100vw;overflow: hidden;height: 100vh;">
+	<div style="width:50%;float: left;">
+		<div class="jumbotron text-center" style="height: 100vh;">
+			<br><br><br><br><br><br>
+		  <h1>EZCommuter</h1>
+		  <p style="font-size: 20px;">Spot, Upload & Report Accidental Prone Area</p>
+
+		</div>
+	</div>
+	<div class="col-md-6" style="width:50%;float: right;background-image: url('/static/pothole.jpg');height:100vh;">
+	</div>
+
+</div>
+
+{% endblock %}
+
+
+
+

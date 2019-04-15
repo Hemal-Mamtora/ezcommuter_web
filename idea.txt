@@ -1,0 +1,13 @@
+Auto or taxi drivers to get large amount of data related to accidental prone area location
+We can install the IOT device in their vehicle and on any severe bump, we will pin the location in the database
+
+
+
+
+
+
+
+
+
+
+

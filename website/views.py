@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+import pandas
 
 # Create your views here.
 def index(request):
-    return HttpResponse('<h1>EZCommuter setup succesfully</h1>')
+    return render(request, 'adm/index1.html', {'overflow_hidden':True})
